@@ -23,6 +23,16 @@ public class UserInfoController : Controller
         return View();
     }
 
+    public IActionResult UserInfo3()
+    {
+        return View();
+    }
+
+    public IActionResult UserInfo4()
+    {
+        return View();
+    }
+
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()
     {
